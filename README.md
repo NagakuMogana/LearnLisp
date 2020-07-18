@@ -27,3 +27,8 @@ Copyright (c) Sam Steingold, Bruno Haible 2001-2018
 
 Type :h and hit Enter for context help.
 ```
+
+### Run Hello,World
+```
+docker run --rm -i -t -v $(pwd):/source learn-lisp clisp /source/hello_world.lisp
+```
